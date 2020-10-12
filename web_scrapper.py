@@ -31,3 +31,6 @@ def create_custom_hn(links, subtext):
   return sort_stories_by_votes(hn)
  
 pprint.pprint(create_custom_hn(mega_links, mega_subtext))
+
+if __name__ == "__main__":
+  main()
